@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bella Vista | Restaurant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+<header>
+<nav class="navbar">
+<a href="#" class="logo">Bella Vista<span>.</span></a>
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#menu">Our Menu</a></li>
+<li><a href="#offers">Offers</a></li>
+<li><a href="#reservation">Reservation</a></li>
+</ul>
+<a href="#reservation" class="nav-button">Book a Table</a>
+</nav>
+</header>
+<!-- Hero Section -->
+<section class="hero" id="home">
+<div class="hero-content">
+<p class="subtitle">WELCOME TO BELLA VISTA</p>
+<h1>Good Food.<br>Good Mood.</h1>
+<p class="hero-text">
+Enjoy delicious meals made with fresh ingredients
+and served with love.
+</p>
+<div class="hero-buttons">
+<a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+<a href="#about" class="btn btn-outline">Discover Our Story</a>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="about section-padding" id="about">
+<div class="about-image">
+<img
+src="Dinner.jpg"
+alt="Beautiful restaurant dining experience"
+>
+</div>
+<div class="about-content">
+<p class="subtitle">OUR STORY</p>
+<h2>A Place Where Food Meets Happiness</h2>
+<p>
+At Bella Vista, we believe that great food brings
+people together. Our chefs prepare every meal using
+fresh ingredients and carefully selected recipes.
+</p>
+<p>
+Whether you are celebrating a special occasion or
+enjoying dinner with friends, we are here to make
+every visit memorable.
+</p>
+<a href="#menu" class="btn btn-primary">Discover Our Menu</a>
+</div>
+</section>
+<!-- Menu Section -->
+<section class="menu section-padding" id="menu">
+<div class="section-heading">
+<p class="subtitle">TASTE THE DIFFERENCE</p>
+<h2>Our Popular Dishes</h2>
+<p>Freshly prepared favourites from our kitchen.</p>
+</div>
+<div class="menu-grid">
+<article class="menu-card">
+<img
+src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80"
+alt="Classic beef burger"
+>
+<div class="menu-info">
+<div class="menu-title">
+<h3>Classic Beef Burger</h3>
+<span class="price">■8,500</span>
+</div>
+<p>
+Juicy beef, fresh lettuce, tomato and
+our signature sauce.
+</p>
+<a href="#reservation" class="order-link">Order / Enquire →</a>
+</div>
+</article>
+<article class="menu-card">
+<img
+src="special_pizza.jpg"
+alt="Freshly prepared pizza"
+>
+<div class="menu-info">
+<div class="menu-title">
+<h3>Special Pizza</h3>
+<span class="price">■12,000</span>
+</div>
+<p>
+Crispy crust topped with cheese,
+vegetables and rich tomato sauce.
+</p>
+<a href="#reservation" class="order-link">Order / Enquire →</a>
+</div>
+</article>
+<article class="menu-card">
+<img
+src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80"
+alt="Healthy fresh salad bowl"
+>
+<div class="menu-info">
+<div class="menu-title">
+<h3>Fresh Garden Salad</h3>
+<span class="price">■6,000</span>
+</div>
+<p>
+A refreshing mix of greens, vegetables
+and our homemade dressing.
+</p>
+<a href="#reservation" class="order-link">Order / Enquire →</a>
+</div>
+</article>
+</div>
+</section>
+<!-- Special Offers -->
+<section class="offers section-padding" id="offers">
+<div class="offer-content">
+<p class="subtitle">LIMITED-TIME OFFER</p>
+<h2>Make Your Week Extra Delicious!</h2>
+<p>
+Get 15% off your food bill when you dine with
+us on weekdays.
+</p>
+<a href="#reservation" class="btn btn-light">Reserve Your Table</a>
+</div>
+</section>
+<!-- Reservation Section -->
+<section class="reservation section-padding" id="reservation">
+<div class="section-heading">
+<p class="subtitle">WE LOOK FORWARD TO SEEING YOU</p>
+<h2>Make a Reservation</h2>
+<p>Fill in the details below to plan your visit.</p>
+</div>
+<form class="reservation-form">
+<div class="form-group">
+<label for="name">Full Name</label>
+<input
+type="text"
+id="name"
+placeholder="Enter your name"
+required
+>
+</div>
+<div class="form-group">
+<label for="email">Email Address</label>
+<input
+type="email"
+id="email"
+placeholder="Enter your email"
+required
+>
+</div>
+<div class="form-group">
+<label for="guests">Number of Guests</label>
+<select id="guests" required>
+<option value="">Select guests</option>
+<option value="1">1 Guest</option>
+<option value="2">2 Guests</option>
+<option value="3">3 Guests</option>
+<option value="4">4 Guests</option>
+<option value="5+">5 or More Guests</option>
+</select>
+</div>
+<div class="form-group">
+<label for="date">Reservation Date</label>
+<input type="date" id="date" required>
+</div>
+<div class="form-group full-width">
+<label for="message">Special Requests</label>
+<textarea
+id="message"
+rows="4"
+placeholder="Tell us about any special requests"
+></textarea>
+</div>
+<button type="submit" class="btn btn-primary full-width">
+Submit Reservation
+</button>
+</form>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div>
+<a href="#home" class="logo">Bella Vista<span>.</span></a>
+<p>Good food, great company, unforgettable moments.</p>
+</div>
+<div class="footer-contact">
+<p>Email: hello@bellavista.example</p>
+<p>Phone: +234 800 000 0000</p>
+</div>
+<p class="copyright">
+&copy; 2026 Bella Vista Restaurant. All rights reserved.
+</p>
+</footer>
+</body>
+</html>
